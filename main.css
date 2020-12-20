@@ -1,0 +1,165 @@
+@font-face{
+	font-family:"text";
+	src:url(polices/Louis-George-Cafe.ttf);
+}
+
+
+@font-face{
+	font-family:"title";
+	src:url(polices/LEMONMILK-Light.otf);
+}
+
+header{
+
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	width: 100%;
+	background: linear-gradient(to bottom, #222222, #000000);
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+
+}
+
+.underHeader{
+	
+ 	width:100%;
+ 	height:0.3vw;
+ 	background:  linear-gradient(to right, #F71289, #00FFFF);
+ 
+}
+
+.vignette{
+
+	text-decoration: none;
+  	text-align:center;
+  	margin-left: 80%;
+  	height:auto;
+  	border-bottom: 0.3vw solid #F71289;
+  	margin-bottom: 1px;
+  	margin-top: 0px;
+
+}
+
+h1{
+	margin-bottom:0px;
+	text-align: center;
+	font-family: title;
+	font-size: 1.5vw;
+
+}
+
+p{
+	font-size: 1vw;
+	font-family: text;
+}
+
+button{
+
+    border-radius: 20px;
+    text-align: center;
+    font-size:0.8vw;
+    font-family: title;
+    border-width: 0.2vw;
+    border-color: #F71289;
+    color:  #F71289;
+    margin-bottom:1vw; 
+    margin-top: 1vw;
+    box-shadow: 0px 0px 20px rgba(247,18,137,0.3);
+}
+
+button:hover{
+
+cursor: pointer;
+background-image: :  linear-gradient(to right, #F71289, #045FB4);
+ box-shadow: 0px 0px 20px rgba(247,18,137,0.6);
+
+}
+
+.slide{
+	margin-top: 0vw;
+	height: auto;
+	width: 100%;
+	background-color: rgba(,0,0,0.6);
+}
+
+
+h2{
+	margin-top: 2%;
+	width:auto;
+	text-align: center;
+	font-family: title;
+	font-size: 2vw;
+	
+}
+
+
+h3{
+	height: auto;
+	margin-left: 1%;
+	margin-bottom: none;
+	margin-right: 1%;
+    color: black;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: title;
+	
+}
+
+
+
+
+.text{
+	margin:5% 5% auto 5%;
+	padding:0.2% 0.2% 0.2% 0.2%;
+	border-radius: 1vw;
+	height:auto;
+	min-width: auto;
+	margin-top: 1vw;
+	max-width: 25%;
+	background-image:  linear-gradient(to right, #F71289, #00AAA);
+}
+
+.lastDiv{
+	padding:0.5% 3% 0.5% 3%;
+	border-radius: 1vw;
+	height:auto;
+	min-width: auto;
+	text-align: center;
+	background-color: white;
+}
+
+
+.sameLine{
+	display: flex;
+	flex-direction: row;
+	height: auto;
+
+}
+
+
+
+footer{
+
+	margin-top: 10%; 
+	display: flex;
+	width: 100%;
+	background: linear-gradient(to bottom, #000000, #111111);
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border:0.3vw solid black;
+	height: 100%;
+
+	
+	
+}
+
+body{
+
+	margin: 0% 0% 0% 0% ;
+	size:all all;
+	height:auto;
+	
+}
+
