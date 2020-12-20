@@ -30,15 +30,38 @@ header{
  
 }
 
+.lastvignette{
+
+	text-decoration: none;
+  	margin-right:500px;
+  	height:auto;
+  	border-bottom: 0.2vw solid #F71289;
+  	margin-bottom: 1px;
+  	margin-top: 0px;
+  	color:red;
+
+}
 .vignette{
 
 	text-decoration: none;
   	text-align:center;
-  	margin-left: 80%;
+  	margin-right: 5%;
   	height:auto;
   	border-bottom: 0.3vw solid #F71289;
   	margin-bottom: 1px;
   	margin-top: 0px;
+  	color:white;
+}
+
+.lastvignette{
+
+	text-decoration: none;
+  	margin-right: 0px;
+  	height:auto;
+  	border-bottom: 0.2vw solid #F71289;
+  	margin-bottom: 1px;
+  	margin-top: 0px;
+  	color:red;
 
 }
 
@@ -118,7 +141,7 @@ h3{
 	min-width: auto;
 	margin-top: 1vw;
 	max-width: 25%;
-	background-image:  linear-gradient(to right, #F71289, #00AAA);
+	background-image:  linear-gradient(to right, #F71289, #00AAAd);
 }
 
 .lastDiv{
