@@ -15,15 +15,14 @@ h1{
 	font-family: title;
 	font-size: 1.2vw;
 	margin-top: 0px;
+		background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 
 }
 
 
-p{
-	font-size: 1vw;
-	font-family: text;
-}
 
 button{
 
@@ -48,12 +47,12 @@ background-image: :  linear-gradient(to right, #F71289, #045FB4);
 }
 
 h2{
-	margin-top: 2%;
-	width:auto;
 	text-align: center;
 	font-family: title;
-	font-size: 2vw;
+	font-size: 1.6vw;
+	margin: 0 0 0 0;
 	
+  color:white;
 }
 
 
@@ -62,10 +61,11 @@ h3{
 	margin-left: 1%;
 	margin-bottom: none;
 	margin-right: 1%;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 1.5vw;
     font-family: title;
+    text-shadow: 0px 0px 1vw #ff0032ff;
 	
 }
 
@@ -77,9 +77,9 @@ header{
     align-items: center;
     background-color: black;
     padding: 0% 2% 1% 1%;
-    margin-bottom: 10%;
-    attachment: fixed;
+   
 }
+
 
 #topBarre{
 
@@ -109,14 +109,43 @@ header{
 	text-decoration:none;
 	color: black;
 	text-shadow: 0px 0px 3px white;
-	box-shadow: 2px 2px 1px grey;
+	box-shadow: 2px 2px 1px red;
 	margin-left:5%; 
 	height:auto;
 	padding:0% 2% 0% 3%;
 	margin-top: 5%;
 }
 
+.liseret{
+	height:0.5vw;
+	width:100%;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	 
+}
+
+
+.location{
+
+	background-color: black;
+	padding:0.5vw 1vw 0.5vw 1vw;	
+	border-bottom-right-radius: 0.5vw ;
+	border-bottom-left-radius: 0.5vw ;
+	margin-top:-1vw;
+	margin-bottom: 10%;
+
+}
+
+
+.contenuPage{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .ensemble{
+
 	display: flex;
 	flex-wrap: wrap;
 	height: auto;
@@ -126,33 +155,31 @@ header{
 }
 
 .contour{
+
 	display: flex;
-	justify-content: center;
-	margin:5% 5% auto 5%;
-	padding:0.2% 0.2% 0.2% 0.2%;
-	border-radius: 0.5vw;
-	height:auto;
+	flex-direction: column;
+	padding:0.3% 0.3% 0.3% 0.3%;
 	margin-top: 1vw;
-	max-width: 50%;
-	background-image:  linear-gradient(to right, #F71289, #00AAAd);
+	width: auto;
+	max-width: 90%;
+	height: auto;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	margin-bottom: 10%;
+	border-radius: 0.2vw;
 }
 
-.divDeTexte{
-	padding:0.5% 3% 0.5% 3%;
-	border-radius: 1vw;
-	height:auto;;
-	max-width:100%;
-	
-	background-color: white;
-}
 
 .divDeTexteCentrer{
+
 	padding:0.5% 3% 0.5% 3%;
-	border-radius: 0.5vw;
+	border-radius: 0.2vw;
 	height:auto;
 	max-width:100%;
 	text-align: center;
-	background-color: white;
+	background-color:rgba(0,0,0,0.8);
+	color: white;
+	font-size:1.5vw;
+	font-family: text;
 }
 
 
@@ -160,8 +187,9 @@ header{
 
 
 body{
-
-margin: 0 0 0 0 ;	
-padding: 0 0 0 0 ;
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 0 0 ;	
+	padding: 0 0 0 0 ;
 }
 
