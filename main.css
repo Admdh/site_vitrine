@@ -22,6 +22,10 @@ h1{
 
 }
 
+.intro{
+color:white;
+}
+
 
 
 button{
@@ -51,8 +55,9 @@ h2{
 	font-family: title;
 	font-size: 1.6vw;
 	margin: 0 0 0 0;
-	
-  color:white;
+		background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -75,9 +80,10 @@ header{
     display: flex;
     justify-content:right;
     align-items: center;
-    background-color: black;
-    padding: 0% 2% 1% 1%;
+    background-color:  black;
    
+    padding: 0% 2% 1% 1%;
+
 }
 
 
@@ -95,7 +101,6 @@ header{
 .vignette{
 
 	text-decoration:none;
-	color: white;
 	box-shadow: 0.1vw 0.1vw 0vw white;
 	margin-left:5%; 
 	height:auto;
@@ -107,20 +112,19 @@ header{
 .vignette:hover{
 
 	text-decoration:none;
-	color: black;
-	text-shadow: 0px 0px 3px white;
-	box-shadow: 2px 2px 1px red;
+	box-shadow: 2px 2px 1px #ff0032ff;
 	margin-left:5%; 
 	height:auto;
 	padding:0% 2% 0% 3%;
 	margin-top: 5%;
+
+
 }
 
 .liseret{
 	height:0.5vw;
 	width:100%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
-	 
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
 }
 
 
@@ -142,51 +146,120 @@ header{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 0 5% 0 5%;
+	background-color: linear-gradient(to right, #0c2bc2ff, #ff0032ff);	
+	margin-bottom: 20%;
 }
 
-.ensemble{
-
-	display: flex;
-	flex-wrap: wrap;
-	height: auto;
-	justify-content: center;
-	margin-bottom: 10%;
-	height: all;
-}
-
-.contour{
+.contourIntro{
 
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
 	padding:0.3% 0.3% 0.3% 0.3%;
 	margin-top: 1vw;
-	width: auto;
-	max-width: 90%;
-	height: auto;
 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
 	margin-bottom: 10%;
-	border-radius: 0.2vw;
+	border-radius: 10vw;
+	box-shadow: 0 0 1vw black;
 }
 
 
-.divDeTexteCentrer{
+.divDeTexteCentrerIntro{
 
 	padding:0.5% 3% 0.5% 3%;
 	border-radius: 0.2vw;
 	height:auto;
 	max-width:100%;
 	text-align: center;
-	background-color:rgba(0,0,0,0.8);
+	font-size:1.5vw;
+	font-family: text;
+	border-radius: 10vw;
+}
+
+.ensemble{
+
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	justify-content: space-between;
+	margin-bottom: 10%;
+	width:100%;
+	padding:0 5% 0 5%;
+
+}
+
+.contour{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding:0.3% 0.3% 0.3% 0.3%;
+	margin-top: 1vw;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	margin-bottom: 10%;
+	border-radius: 2vw;
+	box-shadow: 0 0 1vw black;
+}
+
+
+.divDeTexteCentrer{
+
+	padding:0.5% 3% 0.5% 3%;
+	border-radius: 2vw;
+	height:auto;
+	max-width:100%;
+	text-align: center;
+	background-color:rgba(0,0,0,0.3);
 	color: white;
 	font-size:1.5vw;
 	font-family: text;
 }
 
+.contourListe{
 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 40%;
+	width: auto;
+	padding:0.3% 0.3% 0.3% 0.3%;
+	margin-top: 1vw;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	margin-bottom: 10%;
+	border-radius: 2vw;
+	box-shadow: 0 0 1vw black;
+}
+
+.divDeTexteListe{
+	align-items:  center;
+	justify-content: center;
+	padding:0.5% 10% 0.5% 15%;
+	border-radius: 2vw;
+	text-align: left;
+	height: 100%;
+	background-color:rgba(0,0,0,0.5);
+	color: white;
+	font-size:1.5vw;
+	font-family: text;
+	margin-left: 0px;
+	width: 75% ; 	
+
+}
+
+footer{
+	background: white;
+	margin-top: 5%;
+}
 
 
 
 body{
+	background-color:  	rgba(20,20,20,1);
 	display: flex;
 	flex-direction: column;
 	margin: 0 0 0 0 ;	
