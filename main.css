@@ -120,6 +120,7 @@ header{
 	height:auto;
 	padding:0% 2% 0% 3%;
 	margin-top: 5%;
+	color:blue;
 
 
 }
@@ -155,9 +156,9 @@ header{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 0 5% 0 5%;
+	padding: 0 8% 0 8%;
 	background-color: linear-gradient(to right, #0c2bc2ff, #ff0032ff);	
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 }
 
 .contourIntro{
@@ -260,19 +261,93 @@ header{
 
 }
 
-footer{
-	background: white;
-	margin-top: 5%;
+
+
+.liseretFooter{
+
+	height:0.5vw;
+	width:100%;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+}
+
+footer{		
+
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: center;
+	margin-top: none;
+	background: black; 
+	width: 100%;
+	padding: 3% 0 3% 0;
+	font-size:2vw;
+
+}
+
+.Info{
+	
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	font-family: text;
+	margin-left: 3%;
+
+}
+
+.image{
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	width:40%;
+
+}
+
+.contact{
+	
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: text;
+	margin-left: 3%;
+
+}
+
+.upec{	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	width:35%;
+}
+
+.email{
+
+	text-decoration: none;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+	font-family: text;
+	width: auto;
 }
 
 
 
 body{
-	background-color:  	rgba(30,30,30,1);
+	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: rgba(30,30,30,0.1);
 	margin: 0 0 0 0 ;	
 	padding: 0 0 0 0 ;
+
 }
 
