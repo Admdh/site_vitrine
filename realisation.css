@@ -33,8 +33,10 @@ h3{
     text-align: center;
     font-size: 1.6vw;
     font-family: title;
-    text-shadow: 0px 0px 1vw #ff0032ff;	
-    color: white;
+    text-shadow: 0px 0px 3vw grey;	
+ background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	background-clip: text;
+ 	color:transparent;
 }
 
 p{
@@ -50,24 +52,28 @@ ul{
 span{
 
 	font-weight: bold;
-	color: #ff0032ff; 
+	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	background-clip:text;
+	color:transparent;
 }
 button{
     border-radius: 1vw;
     text-align: center;
-    font-size:1.2vw;
-    font-family: title;
-    border-width: 0.2vw;
-    border-color: #F71289;
-    color:  #F71289;
+    font-size:1.7vw;
+    font-family: text;
+    border:solid 0.05vw white;
+    background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	background-clip:text;
+	color:transparent;
     margin-bottom:1vw; 
     margin-top: 1vw;
-    box-shadow: 0px 0px 20px rgba(247,18,137,0.3);
+    box-shadow: 0px 0px 1vw rgba(247,18,137,0.3);
+
 }
 
 button:hover{
 	cursor: pointer;
- 	box-shadow: 0px 0px 20px rgba(247,18,137,0.6);
+ 	box-shadow: 0px 0px 1.2vw rgba(247,18,137,0.6);
 }
 
 
@@ -154,8 +160,6 @@ header{
 	box-shadow: 0 0 1vw black;
 }
 
-
-
 .ensembleDiv{
 	display: flex;
 	justify-content: space-between;
@@ -175,31 +179,32 @@ header{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 0 2% 0 2%;
+	padding: 0 3% 0 0;
 	border-radius: 2vw;
-	background-color: (0,0,0,0.5);
-	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff);
 	color: white;
 	font-size:1.5vw;
-	max-width: 40%; 	
-	margin-bottom: 10%;
+	max-width: 100%; 	
+	background-color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
+#divScrollable{
+	height:10vw;
+	overflow-y: scroll;
+	font-family: text;
+	border:3px solid white;
+	border-radius: 1vw;
+	padding:3% 1% 1% 1%;
+	margin-right: 5%;
+	scrollbar-color: #f1002f black; 
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    border-top-right-radius: 10vw;
+}
 
 .liseretFooter{
 	height:0.5vw;
 	width:100%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
 }
 
 footer{		
