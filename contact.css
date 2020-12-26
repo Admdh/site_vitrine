@@ -1,0 +1,331 @@
+@font-face{
+	font-family:"text";
+	src:url(polices/Louis-George-Cafe.ttf);
+}
+
+@font-face{
+	font-family:"title";
+	src:url(polices/LEMONMILK-Light.otf);
+}
+
+h1{
+	margin:0 0 0 0;
+	font-family: title;
+	font-size: 1.2vw;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	background-clip: text;
+ 	color:transparent;
+}
+
+h2{
+	margin: 0 0 0 0;
+	font-family: title;
+	font-size: 1.6vw;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	background-clip: text;
+ 	color:transparent;
+ }
+
+h3{
+    font-size: 1.6vw;
+    font-family: title;
+    background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	background-clip: text;
+ 	color:transparent;
+}
+
+p{
+	font-family: text;
+	color: white;
+}
+
+ul{
+	list-style-type: circle;
+	padding: 0 0 0 0 ;
+	margin:0 0 0 0;
+}
+
+strong{
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	background-clip: text;
+ 	color:transparent;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+    justify-content:right;
+    background-color:  black;
+   	width:100%;
+    padding: 0 2% 1% 2%;
+    position:fixed;
+}
+
+.NWlink{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	margin-left: 3%;
+	margin-top: 1%; 
+	min-height: 50%;
+}
+
+.lienNW{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	width: 5%;
+	text-align: center;
+}
+
+#topBarre{
+	display:flex;  
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    list-style: none;
+    padding: 0 0 0 0;
+    margin:0 5% 0 5%;
+}
+
+.vignette{
+	text-decoration:none;
+	margin-left:5%; 
+	padding-right: 0.5vw; 
+	border-right: 0.1vw solid white;
+	border-bottom: solid 0.1vw white;
+	margin-top: 5%;
+	border-radius: 0.1vw;
+}
+
+.vignette:hover{
+	 border-color:#ff0032ff ;
+	box-shadow: 0.1vw 0.1vw 0.2vw  #ff0032ff;
+}
+
+.liseret{
+	height:0.5vw;
+	width:100%;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	margin-top: 4%;
+	position:fixed;
+}
+
+.location{
+		background-color: black;
+	padding:0.5vw 1vw 0.5vw 1vw;	
+	border-bottom-right-radius: 0.5vw ;
+	border-bottom-left-radius: 0.5vw ;
+	margin-top: 2.5%;
+	position:fixed;
+}
+
+#ancre{
+	display: flex;
+	justify-content: center;align-items: center;
+	width:3%;
+	position: fixed;
+	margin :6% 97% 0 0;
+	padding: 0 0 0 0;
+}
+
+.contenuPage{
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 8% 0 8%;	
+	margin-bottom: 10%;
+}
+
+.intro{
+	text-align: center;
+	width: 80%;
+	padding:0.5% 3% 0.5% 3%;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	font-size: 1.5vw;
+	border-radius: 10vw;
+	margin-bottom: 10%;
+}
+
+.ensembleDiv{
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	justify-content: space-between;
+	margin-bottom: 10%;
+	width:100%;
+	padding:0 5% 0 5%;
+}
+
+.contourListe{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-width: 40%;
+	padding:0.3% 0.3% 0.3% 0.3%;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	margin-bottom: 10%;
+	border-radius: 2vw;
+	box-shadow: 0 0 1vw black;
+}
+
+.listeCentrerDansContour{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:0.5% 10% 0.5% 10%;
+	border-radius: 2vw;
+	height: 100%;
+	background-color:black;
+	color: white;
+	font-size:1.5vw;
+	font-family: text;
+	margin-left: 0px;
+	width: 80%; 
+	height: 100%;	
+}
+
+.formulaire{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2%;
+}
+
+.titreContact{
+	font-size: 1.6vw;
+}
+
+form {
+  	display: flex;
+	flex-direction: column;
+	align-items: center;
+ 	width: 96%;
+	height:100%;
+ 	background-color: black;
+ 	border-radius: 2vw;
+  	color:white;
+  	padding: 0 2% 0 2%;
+}
+
+label {
+ 	font-family: text;
+ 	font-size: 1.5vw;
+ 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	background-clip: text;
+ 	color:transparent;
+ }
+
+input, textarea {
+  font: 1vw text;
+  width: 50%;
+  border: 0.1vw solid #ff0032ff;
+  border-radius: 1vw;
+  text-align: center;
+}
+
+input:focus, textarea:focus {
+  border-width: 0.15vw;
+  box-shadow: 10px solid white; 
+}
+
+.button{
+	margin-top: 5%;
+}
+
+button{
+	margin-top: 10%;
+    border-radius: 1vw;
+    text-align: center;
+    font-size:1.5vw;
+    font-family: text;
+    border:solid 0.05vw white;
+    background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	background-clip:text;
+	color:transparent;
+    margin-bottom:1vw; 
+    margin-top: 1vw;
+    box-shadow: 0px 0px 1vw rgba(247,18,137,0.3);
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.liseretFooter{
+	height:0.5vw;
+	width:100%;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+}
+
+footer{		
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	background: black; 
+	width: 100%;
+	padding: 3% 0 1% 0;
+	font-size:2vw;
+}
+
+.email{
+	text-decoration: none;
+	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-clip: text;
+ 	color: transparent;
+	font-family: text;
+}
+
+.image{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	width:40%;
+}
+
+.upec{	
+	background-color: black;
+	width:35%;
+}
+
+.signature{
+	display: flex;
+	justify-content: center;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	background-clip: text;
+ 	color:transparent;
+	font-family: text;
+	margin: 0 0 0 3.5%;
+}
+
+.date{
+
+	font-size: 1vw;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	background-clip: text;
+ 	color:transparent;
+ 	margin-bottom: 0;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	align-items: center;
+	background-image: url(images/bildongz.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 0 0 0 ;	
+}
