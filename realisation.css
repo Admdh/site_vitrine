@@ -49,7 +49,7 @@ ul{
 	list-style-type: circle;
 }
 
-span{
+mark{
 
 	font-weight: bold;
 	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
@@ -59,7 +59,7 @@ span{
 button{
     border-radius: 1vw;
     text-align: center;
-    font-size:1.7vw;
+    font-size:1.5vw;
     font-family: text;
     border:solid 0.05vw white;
     background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
@@ -68,6 +68,7 @@ button{
     margin-bottom:1vw; 
     margin-top: 1vw;
     box-shadow: 0px 0px 1vw rgba(247,18,137,0.3);
+
 
 }
 
@@ -87,6 +88,22 @@ header{
     position:fixed;
 }
 
+.NWlink{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	margin-left: 3%;
+	margin-top: 1%; 
+	min-height: 50%;
+
+}
+.lienNW{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	width: 5%;
+	text-align: center;
+}
 
 #topBarre{
 	display:flex;  
@@ -117,18 +134,28 @@ header{
 	height:0.5vw;
 	width:100%;
 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
-	margin-top: 3.2%;
+	margin-top: 4%;
 	position:fixed;
 }
 
 .location{
-	background-color: black;
+		background-color: black;
 	padding:0.5vw 1vw 0.5vw 1vw;	
 	border-bottom-right-radius: 0.5vw ;
 	border-bottom-left-radius: 0.5vw ;
-	margin-top: 1.5%;
+	margin-top: 2.5%;
 	position:fixed;
 }
+
+#ancre{
+	display: flex;
+	justify-content: center;align-items: center;
+	width:3%;
+	position: fixed;
+	margin :6% 97% 0 0;
+	padding: 0 0 0 0;
+}
+
 
 .contenuPage{
 	
@@ -151,15 +178,6 @@ header{
 	margin-bottom: 10%;
 }
 
-.contour{
-	width: 100%;
-	padding:0.3% 0.3% 0.3% 0.3%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
-	margin-bottom: 10%;
-	border-radius: 2vw;
-	box-shadow: 0 0 1vw black;
-}
-
 .ensembleDiv{
 	display: flex;
 	justify-content: space-between;
@@ -167,7 +185,12 @@ header{
 }
 
 .contourA{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	max-width: 40%;
+	height:auto;
 	padding:0.3% 0.3% 0.3% 0.3%;
 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
 	margin-bottom: 10%;
@@ -176,14 +199,16 @@ header{
 }
 
 .projetTemplate{
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 0 3% 0 0;
+	height:100%;
+	padding: 0 3% 0 8%;
 	border-radius: 2vw;
 	color: white;
 	font-size:1.5vw;
-	max-width: 100%; 	
+	
 	background-color: black;
 }
 
@@ -201,6 +226,19 @@ header{
     border-top-right-radius: 10vw;
 }
 
+.listeRea{
+
+	padding: 0 0 0 0 ;
+}
+
+.projetButton{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding-right:5% ; 
+
+}
+
 .liseretFooter{
 	height:0.5vw;
 	width:100%;
@@ -210,11 +248,10 @@ header{
 footer{		
 	display: flex;
 	flex-direction:row;
-	align-items: center;
 	justify-content: center;
 	background: black; 
 	width: 100%;
-	padding: 3% 0 3% 0;
+	padding: 3% 0 1% 0;
 	font-size:2vw;
 }
 
@@ -228,7 +265,9 @@ footer{
 
 .image{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	background-color: black;
 	width:40%;
 }
@@ -241,12 +280,19 @@ footer{
 .signature{
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
   	background-clip: text;
  	color:transparent;
 	font-family: text;
 	margin: 0 0 0 3.5%;
+}
+
+.date{
+	font-size: 1vw;
+	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+  	background-clip: text;
+ 	color:transparent;
+ 	margin-bottom: 0;
 }
 
 body{
