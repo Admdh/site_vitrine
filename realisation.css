@@ -15,7 +15,7 @@ h1{
 	font-family: title;
 	font-size: 1.2vw;
 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
-  	background-clip: text;
+ -webkit-background-clip:text;
  	color:transparent;
 }
 
@@ -24,7 +24,7 @@ h2{
 	font-family: title;
 	font-size: 1.6vw;
 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
-  	background-clip: text;
+   -webkit-background-clip:text;
  	color:transparent;
  }
 
@@ -35,13 +35,17 @@ h3{
     font-family: title;
     text-shadow: 0px 0px 3vw grey;	
  background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
-  	background-clip: text;
+ -webkit-background-clip:text;
  	color:transparent;
 }
 
 p{
 	font-family: text;
 	color: white;
+}
+
+a {
+		text-decoration: none;
 }
 
 ul{
@@ -53,34 +57,36 @@ mark{
 
 	font-weight: bold;
 	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
-	background-clip:text;
+	-webkit-background-clip:text;
 	color:transparent;
 }
 
-button{
+.boutonProjet{
     border-radius: 1vw;
     text-align: center;
     font-size:1.5vw;
     font-family: text;
     border:solid 0.05vw white;
     background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
-	background-clip:text;
+	-webkit-background-clip:text;
 	color:transparent;
     margin-bottom:1vw; 
     margin-top: 1vw;
     box-shadow: 0px 0px 1vw rgba(247,18,137,0.3);
+    padding: 0 2% 0 2%;
 }
 
-button:hover{
+.boutonProjet:hover{
 	cursor: pointer;
  	box-shadow: 0px 0px 1.2vw rgba(247,18,137,0.6);
 }
 
 
+
 header{
 	display: flex;
 	flex-direction: row;
-    justify-content:right;
+    justify-content:left;
     background-color:  black;
    	width:100%;
     padding: 0 2% 1% 2%;
@@ -91,7 +97,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	width:100%;
-	margin-left: 3%;
+	margin-right: 10vw;
 	margin-top: 1%; 
 	min-height: 50%;
 
@@ -102,6 +108,7 @@ header{
 	align-items: center;	
 	width: 5%;
 	text-align: center;
+	margin-left: 5%;
 }
 
 #topBarre{
@@ -133,7 +140,7 @@ header{
 	height:0.5vw;
 	width:100%;
 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
-	margin-top: 4%;
+	margin-top: 4.2%;
 	position:fixed;
 }
 
@@ -211,7 +218,7 @@ header{
 	background-color: black;
 }
 
-#divScrollable{
+.divScrollable{
 	height:10vw;
 	overflow-y: scroll;
 	font-family: text;
@@ -219,11 +226,13 @@ header{
 	border-radius: 1vw;
 	padding:3% 1% 1% 1%;
 	margin-right: 5%;
-	scrollbar-color: #f1002f black; 
-    scrollbar-width: thin;
     scroll-behavior: smooth;
-    border-top-right-radius: 10vw;
+    border-top-right-radius: 0;
+     border-bottom-right-radius: 0;
+
 }
+
+
 
 .listeRea{
 
@@ -257,7 +266,7 @@ footer{
 .email{
 	text-decoration: none;
 	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff);
-	background-clip: text;
+	-webkit-background-clip: text;
  	color: transparent;
 	font-family: text;
 }
@@ -280,7 +289,7 @@ footer{
 	display: flex;
 	justify-content: center;
 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
-  	background-clip: text;
+ -webkit-background-clip:text;
  	color:transparent;
 	font-family: text;
 	margin: 0 0 0 3.5%;
@@ -289,7 +298,7 @@ footer{
 .date{
 	font-size: 1vw;
 	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
-  	background-clip: text;
+ -webkit-background-clip:text;
  	color:transparent;
  	margin-bottom: 0;
 }
