@@ -83,13 +83,14 @@ mark{
 
 
 
+
 header{
 	display: flex;
 	flex-direction: row;
     justify-content:right;
     background-color:  black;
    	width:100%;
-    padding: 0 2% 1% 2%;
+    padding: 0 2% 1.1% 2%;
     position:fixed;
 }
 
@@ -118,7 +119,7 @@ header{
 	padding-right: 0.5vw; 
 	border-right: 0.1vw solid white;
 	border-bottom: solid 0.1vw white;
-	margin-top: 5%;
+	margin-top: 20px;
 	border-radius: 0.1vw;
 }
 
@@ -151,8 +152,8 @@ header{
 	width:3%;
 	position: fixed;
 	margin :6% 97% 0 0;
-	padding: 0 0 0 0;}
-
+	padding: 0 0 0 0;
+}
 
 .contenuPage{
 	
