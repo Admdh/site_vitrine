@@ -9,7 +9,6 @@
 	src:url(polices/LEMONMILK-Light.otf);
 }
 
-
 h1{
 	margin:0 0 0 0;
 	font-family: title;
@@ -52,24 +51,21 @@ ul{
 }
 
 strong{
-  background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
-     -webkit-background-clip: text;
-     color: transparent;
-
+  	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+    -webkit-background-clip: text;
+    color: transparent;
 }
-
-
 
 header{
 	display: flex;
 	flex-direction: row;
     justify-content:right;
     background-color:  black;
- 
    	width:100%;
     padding: 0 2% 1% 2%;
     position:fixed;
 }
+
 
 .lienNW{
 	display: flex;
@@ -114,7 +110,7 @@ header{
 }
 
 .location{
-		background-color: black;
+	background-color: rgb(0,0,0);
 	padding:0.5vw 1vw 0.5vw 1vw;	
 	border-bottom-right-radius: 0.5vw ;
 	border-bottom-left-radius: 0.5vw ;
@@ -271,9 +267,60 @@ footer{
  	margin-bottom: 0;
 }
 
-
-@media all and (min-width: 0px) and (max-width: 800px){
+@media all and (max-width: 1000px){
 	
+	header{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: right;
+		height: 5%;
+	}
+
+	.intro{
+		margin-top: 10%;
+	}
+
+	h1{
+		font-size: 3.5vw;
+	}
+
+	h2{
+		font-size: 4.5vw;
+		color: black;
+	}
+
+	h3{
+		font-size: 3vw;
+	}
+
+	.liseret{
+		display: none;
+	}
+
+	p{
+		font-size: 3vw;
+	}
+
+	#topBarre{   
+    	display: flex;
+    	flex-direction: row;
+    	align-items: center;
+    	justify-content: space-around;
+    	width:80%;
+    	margin: 0 0 0 0;
+
+	}
+
+	.vignette{
+		text-decoration:none;
+		padding-right: 2vw; 
+		border-right: 0.1vw solid white;
+		border-bottom: none;
+	    margin: 0 0 0 0;
+		border-radius: 0.1vw;
+	}
+
 	.ensembleDiv{
 		display: flex;
 		flex-direction: column;
@@ -284,49 +331,15 @@ footer{
 		padding:0 5% 0 5%;
 	}
 
-	#ancre{
+	.location{
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		align-items: center;
-		width:7%;
+	 	 background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
 		position: fixed;
-	    margin :20% 93% 0 0;
-		padding: 0 0 0 0;
-	}
-
-	p{
-		font-size: 3vw;
-	}
-
-	h3{
-		font-size:4vw;
-	}
-
-	footer{		
-	display: flex;
-	flex-direction:row;
-	justify-content: center;
-	background: black; 
-	width: 100%;
-	padding: 3% 0 1% 0;
-	font-size:2vw;
-	}
-
-}
-
-
-
-@media screen and (max-width: 800px){
-
-		.ensembleDiv{
-		display: flex;
-		flex-direction: column;
-		height: auto;
-		justify-content: space-between;
-		margin-bottom: 10%;
-		width:100%;
-		padding:0 5% 0 5%;
+		margin-right: 80%;
+		color: black;
+		height:5%;
+		margin-top: 0;
 	}
 	
 	#ancre{
@@ -336,18 +349,9 @@ footer{
 		align-items: center;
 		width:7%;
 		position: fixed;
-		margin :20% 93% 0 0;
+		margin :13% 93% 0 0;
 		padding: 0 0 0 0;
 	}
-
-	p{
-		font-size: 3vw;
-	}
-
-	h3{
-		font-size:4vw;
-	}
-
 
 	.email{
 		
@@ -368,58 +372,12 @@ footer{
 
 	.date{
 
-	font-size: 1.5vw;
-	 background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
-     -webkit-background-clip: text;
-     text-align: center;
-     color: transparent;
- 	margin-bottom: 0;
-}
-
-
-}
-
-
-
-@media all and (max-device-width: 800px){
-	
-		.ensembleDiv{
-		display: flex;
-		flex-direction: column;
-		height: auto;
-		justify-content: space-between;
-		margin-bottom: 10%;
-		width:100%;
-		padding:0 5% 0 5%;
-	}
-	
-	#ancre{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width:7%;
-		position: fixed;
-		margin :20% 93% 0 0;
-		padding: 0 0 0 0;
-	}
-
-	p{
-		font-size: 3vw;
-	}
-
-	h3{
-		font-size:4vw;
-	}
-
-	footer{		
-	display: flex;
-	flex-direction:row;
-	justify-content: center;
-	background: black; 
-	width: 100%;
-	padding: 3% 0 1% 0;
-	font-size:2vw;
+		font-size: 1.5vw;
+	 	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	    -webkit-background-clip: text;
+	    text-align: center;
+	    color: transparent;
+	 	margin-bottom: 0;
 	}
 }
 

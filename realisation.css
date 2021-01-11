@@ -295,6 +295,129 @@ footer{
  	margin-bottom: 0;
 }
 
+
+@media all and (max-width: 1000px){
+	
+	header{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: right;
+		height: 5%;
+	}
+
+	.intro{
+		margin-top: 10%;
+	}
+
+	h1{
+		font-size: 3.5vw;
+	}
+
+	h2{
+		font-size: 4.5vw;
+		color: black;
+	}
+
+	h3{
+		font-size: 3vw;
+	}
+	h4{
+		font-size: 2vw;
+
+	}
+
+	.liseret{
+		display: none;
+	}
+
+	p{
+		font-size: 3vw;
+	}
+
+	#topBarre{   
+    	display: flex;
+    	flex-direction: row;
+    	align-items: center;
+    	justify-content: space-around;
+    	width:70%;
+    	margin: 0 0 0 0;
+
+	}
+
+	.vignette{
+		text-decoration:none;
+		padding-right: 2vw; 
+		border-right: 0.1vw solid white;
+		border-bottom: none;
+	    margin: 0 0 0 0;
+		border-radius: 0.1vw;
+	}
+
+	.ensembleDiv{
+	align-items: center;
+	flex-direction: column;
+
+}
+
+	.location{
+		display: flex;
+		align-items: center;
+	 	 background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+		position: fixed;
+		color: black;
+		height:5%;
+		margin-top: 0;
+		width: 33%;
+		border-radius: 0;
+		margin-right:68%;
+	}
+	
+	#ancre{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width:7%;
+		position: fixed;
+		margin :13% 93% 0 0;
+		padding: 0 0 0 0;
+	}
+
+	.contourA{
+		max-width: none;
+		width: 80%;}
+
+	.boutonProjet{
+		font-size: 2.5vw;
+	}
+
+	.email{
+		margin-left: 3%;
+		text-decoration: none;
+		background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+    	-webkit-background-clip: text;
+    	color: transparent;
+		font-family:text;
+		font-size: 3vw;
+	}
+
+	.upec{	
+		background-color: black;
+		width:60%;
+		font-size: 2vw;
+	}
+
+	.date{
+
+		font-size: 1.5vw;
+	 	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	    -webkit-background-clip: text;
+	    text-align: center;
+	    color: transparent;
+	 	margin-bottom: 0;
+	}
+}
 body{
 	display: flex;
 	flex-direction: column;
