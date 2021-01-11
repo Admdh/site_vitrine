@@ -262,9 +262,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="400.04044"
-     inkscape:cx="326.33746"
-     inkscape:zoom="0.77930497"
+     inkscape:cy="142.87738"
+     inkscape:cx="163.12352"
+     inkscape:zoom="4.4084146"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -292,7 +292,7 @@
        ry="3.5847073"
        rx="3.5847073"
        y="-35.770607"
-       x="-37.691174"
+       x="-37.51112"
        height="124.83701"
        width="249.67403"
        id="rect92"
@@ -357,27 +357,158 @@
          x="-292.23633"
          y="304.67118"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Mention : BIEN (15.57)</tspan></tspan></text>
-    <text
-       transform="matrix(0.20116939,0,0,0.20116939,79.09321,-9.5264393)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;line-height:1.25;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1230-7-2);fill:#ffffff;fill-opacity:1;stroke:none;"
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;line-height:1.25;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1230-7-2);fill:#ffffff;fill-opacity:1;stroke:none"
        id="text1228-0-0"
-       xml:space="preserve"><tspan
-         x="-292.23633"
-         y="304.67118"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Série : generale</tspan></tspan></text>
-    <text
-       transform="matrix(0.20116939,0,0,0.20116939,79.09727,-4.1124262)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;line-height:1.25;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1230-2-5);fill:#ffffff;fill-opacity:1;stroke:none;"
+       transform="matrix(0.20116939,0,0,0.20116939,79.09321,-9.5264393)"
+       aria-label="Série : generale">
+      <path
+         id="path304"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -288.9518,304.78848 c 1.65293,0 3.02326,-0.9651 3.02326,-2.4474 0,-1.381 -1.22103,-1.97819 -2.51138,-2.50073 -1.10906,-0.42656 -2.05283,-0.73048 -2.05283,-1.56228 0,-0.76781 0.78914,-1.37566 1.71158,-1.37566 0.77314,0 1.46631,0.43722 1.74357,1.0824 l 0.73049,-0.49055 c -0.31992,-0.84779 -1.18904,-1.54629 -2.4634,-1.54629 -1.50896,0 -2.69801,0.98643 -2.69801,2.30877 0,1.32768 1.17838,1.84488 2.23413,2.25545 1.09839,0.4159 2.33009,0.87979 2.33009,1.84488 0,0.8478 -0.91711,1.45565 -2.04216,1.45565 -0.91178,0 -1.79157,-0.49055 -2.18081,-1.22637 l -0.74648,0.5492 c 0.41057,0.91711 1.50896,1.65293 2.92195,1.65293 z" />
+      <path
+         id="path306"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -280.98574,293.62854 h -0.87979 l -1.11972,1.74357 h 0.73048 z m 1.38099,3.40183 v -0.95443 h -5.04943 v 8.59524 h 5.04943 v -0.9651 h -4.079 v -2.98594 h 3.53514 v -0.97043 h -3.53514 v -2.71934 z" />
+      <path
+         id="path308"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -271.88396,304.67118 -2.55405,-3.46583 c 1.04508,-0.31459 1.80756,-1.27435 1.80756,-2.38875 0,-1.51429 -1.30101,-2.74066 -2.89529,-2.74066 h -2.53805 l 0.005,8.59524 h 0.97043 v -3.35385 h 1.60494 l 2.39942,3.35385 z m -5.2094,-4.17499 v -3.46048 h 1.59961 c 1.01309,0 1.86621,0.76781 1.86621,1.75957 0,0.92777 -0.84246,1.70625 -1.86621,1.70625 z" />
+      <path
+         id="path310"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -270.87621,304.67118 h 0.97043 v -8.59524 h -0.97043 z" />
+      <path
+         id="path312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -263.03279,297.03037 v -0.95443 h -5.04944 v 8.59524 h 5.04944 v -0.9651 h -4.07901 v -2.98594 h 3.53514 v -0.97043 h -3.53514 v -2.71934 z" />
+      <path
+         id="path314"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -257.81273,300.38422 c 0.38923,0 0.70916,-0.31992 0.70916,-0.70383 0,-0.3839 -0.31993,-0.70382 -0.70916,-0.70382 -0.38924,0 -0.70383,0.31459 -0.70383,0.70382 0,0.38924 0.31459,0.70383 0.70383,0.70383 z m 0,4.28696 c 0.38923,0 0.70916,-0.31993 0.70916,-0.70916 0,-0.37858 -0.32526,-0.70383 -0.70916,-0.70383 -0.38391,0 -0.70383,0.31992 -0.70383,0.70383 0,0.38923 0.31459,0.70916 0.70383,0.70916 z" />
+      <path
+         id="path316"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -244.28537,300.11762 h -4.08434 v 0.87445 h 3.08192 c 0.005,0.048 0.005,0.10664 0.005,0.17063 0,1.51963 -1.32235,2.64469 -3.00194,2.64469 -1.98351,0 -3.50314,-1.54096 -3.50314,-3.4285 0,-1.94619 1.61027,-3.44982 3.42316,-3.44982 0.86379,0 1.90887,0.46388 2.57538,1.12505 l 0.54386,-0.80513 c -0.77314,-0.75182 -2.05816,-1.28502 -3.1139,-1.29035 -2.42608,0 -4.41493,1.99418 -4.41493,4.42025 0,2.42607 1.98352,4.40959 4.45225,4.40959 2.21813,0 4.07367,-1.6476 4.07367,-4.05768 0,-0.24527 -0.0213,-0.47455 -0.0373,-0.61318 z" />
+      <path
+         id="path318"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -237.84428,297.03037 v -0.95443 h -5.04943 v 8.59524 h 5.04943 v -0.9651 h -4.079 v -2.98594 h 3.53514 v -0.97043 h -3.53514 v -2.71934 z" />
+      <path
+         id="path320"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -230.36344,296.05461 v 6.4251 l -5.88656,-6.53707 h -0.0533 v 8.7392 h 0.97043 v -6.41977 l 5.89189,6.54241 h 0.048 v -8.74987 z" />
+      <path
+         id="path322"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -222.53068,297.03037 v -0.95443 h -5.04944 v 8.59524 h 5.04944 v -0.9651 h -4.07901 v -2.98594 h 3.53514 v -0.97043 h -3.53514 v -2.71934 z" />
+      <path
+         id="path324"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -214.8099,304.67118 -2.55404,-3.46583 c 1.04507,-0.31459 1.80755,-1.27435 1.80755,-2.38875 0,-1.51429 -1.30101,-2.74066 -2.89529,-2.74066 h -2.53805 l 0.005,8.59524 h 0.97043 v -3.35385 h 1.60494 l 2.39941,3.35385 z m -5.2094,-4.17499 v -3.46048 h 1.59961 c 1.01309,0 1.86621,0.76781 1.86621,1.75957 0,0.92777 -0.84246,1.70625 -1.86621,1.70625 z" />
+      <path
+         id="path326"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -207.56901,304.67118 h 1.05575 l -3.9777,-8.72854 h -0.10664 l -3.97236,8.72854 h 1.05041 l 0.62918,-1.41299 h 4.69218 z m -4.94279,-2.25545 1.97285,-4.42026 1.96752,4.42026 z" />
+      <path
+         id="path328"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -204.49242,303.70608 v -7.63014 h -0.97043 v 8.59524 h 5.18274 v -0.9651 z" />
+      <path
+         id="path330"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -194.05763,297.03037 v -0.95443 h -5.04944 v 8.59524 h 5.04944 v -0.9651 h -4.07901 v -2.98594 h 3.53514 v -0.97043 h -3.53514 v -2.71934 z" />
+    </g>
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;line-height:1.25;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1230-2-5);fill:#ffffff;fill-opacity:1;stroke:none"
        id="text1228-7-9"
-       xml:space="preserve"><tspan
-         x="-292.23633"
-         y="304.67118"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Mention : Assez BIEN </tspan></tspan><tspan
-         style="visibility:hidden"
-         x="-292.23633"
-         y="329.14383"><tspan
-           dx="0 7.0809374 2.7939844 6.5903912"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">bien</tspan></tspan></text>
+       transform="matrix(0.20116939,0,0,0.20116939,79.09727,-4.1124262)"
+       aria-label="Mention : Assez BIEN bien">
+      <path
+         id="path261"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -283.01725,295.91598 -4.10033,6.83566 -4.10033,-6.83566 h -0.11197 v 8.7552 h 0.97043 v -5.84391 l 3.23654,5.69994 h 0.0107 l 3.23121,-5.68928 v 5.83325 h 0.97043 v -8.7552 z" />
+      <path
+         id="path263"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -276.04295,297.03037 v -0.95443 h -5.04943 v 8.59524 h 5.04943 v -0.9651 h -4.079 v -2.98594 h 3.53513 v -0.97043 h -3.53513 v -2.71934 z" />
+      <path
+         id="path265"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -268.56211,296.05461 v 6.4251 l -5.88656,-6.53707 h -0.0533 v 8.7392 h 0.97043 v -6.41977 l 5.89189,6.54241 h 0.048 v -8.74987 z" />
+      <path
+         id="path267"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -260.45209,296.07594 h -5.96121 v 0.95977 h 2.50072 v 7.63547 h 0.97043 v -7.63547 h 2.49006 z" />
+      <path
+         id="path269"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -259.27371,304.67118 h 0.97043 v -8.59524 h -0.97043 z" />
+      <path
+         id="path271"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -252.52336,304.78315 c 2.43674,0 4.42559,-1.98352 4.42559,-4.40426 0,-2.43674 -1.98885,-4.42559 -4.42025,-4.42559 -2.42608,0 -4.41493,1.98885 -4.41493,4.42559 0,2.42074 1.98885,4.40426 4.40959,4.40426 z m 0,-0.9811 c -1.88754,0 -3.42849,-1.54095 -3.42849,-3.42849 0,-1.89287 1.54095,-3.44449 3.42849,-3.44449 1.89821,0 3.4445,1.55162 3.4445,3.44449 0,1.88754 -1.54629,3.42849 -3.4445,3.42849 z" />
+      <path
+         id="path273"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -240.79289,296.05461 v 6.4251 l -5.88656,-6.53707 h -0.0533 v 8.7392 h 0.97043 v -6.41977 l 5.89189,6.54241 h 0.048 v -8.74987 z" />
+      <path
+         id="path275"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -234.33047,300.38422 c 0.38924,0 0.70916,-0.31992 0.70916,-0.70383 0,-0.3839 -0.31992,-0.70382 -0.70916,-0.70382 -0.38924,0 -0.70383,0.31459 -0.70383,0.70382 0,0.38924 0.31459,0.70383 0.70383,0.70383 z m 0,4.28696 c 0.38924,0 0.70916,-0.31993 0.70916,-0.70916 0,-0.37858 -0.32525,-0.70383 -0.70916,-0.70383 -0.3839,0 -0.70383,0.31992 -0.70383,0.70383 0,0.38923 0.31459,0.70916 0.70383,0.70916 z" />
+      <path
+         id="path277"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -222.60533,304.67118 h 1.05574 l -3.97769,-8.72854 h -0.10664 l -3.97237,8.72854 h 1.05041 l 0.62918,-1.41299 h 4.69219 z m -4.94279,-2.25545 1.97285,-4.42026 1.96752,4.42026 z" />
+      <path
+         id="path279"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -218.37703,304.78848 c 1.65293,0 3.02326,-0.9651 3.02326,-2.4474 0,-1.381 -1.22103,-1.97819 -2.51138,-2.50073 -1.10907,-0.42656 -2.05284,-0.73048 -2.05284,-1.56228 0,-0.76781 0.78914,-1.37566 1.71159,-1.37566 0.77314,0 1.4663,0.43722 1.74357,1.0824 l 0.73049,-0.49055 c -0.31992,-0.84779 -1.18904,-1.54629 -2.4634,-1.54629 -1.50896,0 -2.69801,0.98643 -2.69801,2.30877 0,1.32768 1.17838,1.84488 2.23412,2.25545 1.0984,0.4159 2.3301,0.87979 2.3301,1.84488 0,0.8478 -0.91711,1.45565 -2.04217,1.45565 -0.91177,0 -1.79156,-0.49055 -2.1808,-1.22637 l -0.74648,0.5492 c 0.41056,0.91711 1.50896,1.65293 2.92195,1.65293 z" />
+      <path
+         id="path281"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -211.70132,304.78848 c 1.65293,0 3.02326,-0.9651 3.02326,-2.4474 0,-1.381 -1.22104,-1.97819 -2.51139,-2.50073 -1.10906,-0.42656 -2.05283,-0.73048 -2.05283,-1.56228 0,-0.76781 0.78914,-1.37566 1.71158,-1.37566 0.77315,0 1.46631,0.43722 1.74358,1.0824 l 0.73048,-0.49055 c -0.31992,-0.84779 -1.18904,-1.54629 -2.46339,-1.54629 -1.50897,0 -2.69801,0.98643 -2.69801,2.30877 0,1.32768 1.17838,1.84488 2.23412,2.25545 1.0984,0.4159 2.3301,0.87979 2.3301,1.84488 0,0.8478 -0.91711,1.45565 -2.04217,1.45565 -0.91178,0 -1.79156,-0.49055 -2.1808,-1.22637 l -0.74649,0.5492 c 0.41057,0.91711 1.50897,1.65293 2.92196,1.65293 z" />
+      <path
+         id="path283"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -202.35428,297.03037 v -0.95443 h -5.04943 v 8.59524 h 5.04943 v -0.9651 h -4.079 v -2.98594 h 3.53513 v -0.97043 h -3.53513 v -2.71934 z" />
+      <path
+         id="path285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -201.1759,304.67118 h 6.04653 v -0.9651 h -4.47891 l 4.47891,-7.63014 h -6.04653 v 0.95977 h 4.47891 z" />
+      <path
+         id="path287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -186.76875,299.82969 c 0.43723,0 1.11439,-0.67717 1.11439,-1.61027 0,-1.13039 -1.03441,-2.14348 -2.46873,-2.14348 h -2.34609 v 8.59524 h 3.18322 c 1.64227,0 2.71934,-1.2637 2.71934,-2.62336 0,-1.29569 -1.0984,-2.21813 -2.20213,-2.21813 z m -1.30102,-2.80998 c 0.8158,0 1.50364,0.57586 1.50364,1.31168 0,0.72516 -0.57586,1.29568 -1.50897,1.29035 h -1.42898 v -2.60203 z m 0.70383,6.70236 h -2.13814 v -3.23654 h 2.09015 c 1.13573,-0.005 1.89821,0.69316 1.89821,1.4983 0,0.99709 -0.86912,1.73824 -1.85022,1.73824 z" />
+      <path
+         id="path289"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -183.38824,304.67118 h 0.97043 v -8.59524 h -0.97043 z" />
+      <path
+         id="path291"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -175.54482,297.03037 v -0.95443 h -5.04944 v 8.59524 h 5.04944 v -0.9651 h -4.07901 v -2.98594 h 3.53514 v -0.97043 h -3.53514 v -2.71934 z" />
+      <path
+         id="path293"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -168.06398,296.05461 v 6.4251 l -5.88656,-6.53707 h -0.0533 v 8.7392 h 0.97043 v -6.41977 l 5.89189,6.54241 h 0.048 v -8.74987 z" />
+      <path
+         id="path295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -287.62945,324.30235 c 0.43722,0 1.11439,-0.67717 1.11439,-1.61028 0,-1.13039 -1.03441,-2.14347 -2.46873,-2.14347 h -2.34609 v 8.59523 h 3.18322 c 1.64227,0 2.71934,-1.26369 2.71934,-2.62336 0,-1.29568 -1.0984,-2.21812 -2.20213,-2.21812 z m -1.30102,-2.80998 c 0.8158,0 1.50363,0.57586 1.50363,1.31168 0,0.72515 -0.57586,1.29568 -1.50896,1.29035 h -1.42899 v -2.60203 z m 0.70383,6.70236 h -2.13815 v -3.23654 h 2.09016 c 1.13572,-0.005 1.8982,0.69316 1.8982,1.4983 0,0.99709 -0.86912,1.73824 -1.85021,1.73824 z" />
+      <path
+         id="path297"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -284.24895,329.14383 h 0.97043 v -8.59523 h -0.97043 z" />
+      <path
+         id="path299"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -276.40553,321.50303 v -0.95443 h -5.04943 v 8.59523 h 5.04943 v -0.9651 h -4.079 v -2.98593 h 3.53514 v -0.97043 h -3.53514 v -2.71934 z" />
+      <path
+         id="path301"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         d="m -268.92469,320.52727 v 6.4251 l -5.88656,-6.53707 h -0.0533 v 8.7392 h 0.97043 v -6.41977 l 5.89189,6.5424 h 0.048 v -8.74986 z" />
+    </g>
     <text
        transform="matrix(0.20116939,0,0,0.20116939,165.05992,-10.026387)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.92px;line-height:1.25;font-family:'LEMON MILK';-inkscape-font-specification:'LEMON MILK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1230-7-6);fill:#ffffff;fill-opacity:1;stroke:none;"
