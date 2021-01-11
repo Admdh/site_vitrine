@@ -14,18 +14,18 @@ h1{
 	margin:0 0 0 0;
 	font-family: title;
 	font-size: 1.2vw;
- background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
-     -webkit-background-clip: text;
-     color: transparent;
+ 	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 h2{
 	margin: 0 0 0 0;
 	font-family: title;
 	font-size: 1.6vw;
- background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
-     -webkit-background-clip: text;
-     color: transparent;
+ 	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+    -webkit-background-clip: text;
+    color: transparent;
  }
 
 
@@ -65,7 +65,7 @@ header{
 	flex-direction: row;
     justify-content:right;
     background-color:  black;
-    min-height: 3vh;
+ 
    	width:100%;
     padding: 0 2% 1% 2%;
     position:fixed;
@@ -96,7 +96,7 @@ header{
 	padding-right: 0.5vw; 
 	border-right: 0.1vw solid white;
 	border-bottom: solid 0.1vw white;
-	margin-top: 20px;
+	margin-top: 5%;
 	border-radius: 0.1vw;
 }
 
@@ -271,7 +271,9 @@ footer{
  	margin-bottom: 0;
 }
 
+
 @media all and (min-width: 0px) and (max-width: 800px){
+	
 	.ensembleDiv{
 		display: flex;
 		flex-direction: column;
@@ -281,12 +283,145 @@ footer{
 		width:100%;
 		padding:0 5% 0 5%;
 	}
-	p{font-size: 3vw;}
-	h3{font-size:4vw;}
+
+	#ancre{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width:7%;
+		position: fixed;
+	    margin :20% 93% 0 0;
+		padding: 0 0 0 0;
+	}
+
+	p{
+		font-size: 3vw;
+	}
+
+	h3{
+		font-size:4vw;
+	}
+
+	footer{		
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	background: black; 
+	width: 100%;
+	padding: 3% 0 1% 0;
+	font-size:2vw;
+	}
 
 }
-@media screen and (max-width: 800px){}
-@media all and (max-device-width: 800px){}
+
+
+
+@media screen and (max-width: 800px){
+
+		.ensembleDiv{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		justify-content: space-between;
+		margin-bottom: 10%;
+		width:100%;
+		padding:0 5% 0 5%;
+	}
+	
+	#ancre{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width:7%;
+		position: fixed;
+		margin :20% 93% 0 0;
+		padding: 0 0 0 0;
+	}
+
+	p{
+		font-size: 3vw;
+	}
+
+	h3{
+		font-size:4vw;
+	}
+
+
+	.email{
+		
+		margin-left: 3%;
+		text-decoration: none;
+		background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+    	-webkit-background-clip: text;
+    	color: transparent;
+		font-family:texte;
+		font-size: 3vw;
+	}
+
+	.upec{	
+		background-color: black;
+		width:60%;
+		font-size: 2vw;
+	}
+
+	.date{
+
+	font-size: 1.5vw;
+	 background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+     -webkit-background-clip: text;
+     text-align: center;
+     color: transparent;
+ 	margin-bottom: 0;
+}
+
+
+}
+
+
+
+@media all and (max-device-width: 800px){
+	
+		.ensembleDiv{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		justify-content: space-between;
+		margin-bottom: 10%;
+		width:100%;
+		padding:0 5% 0 5%;
+	}
+	
+	#ancre{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width:7%;
+		position: fixed;
+		margin :20% 93% 0 0;
+		padding: 0 0 0 0;
+	}
+
+	p{
+		font-size: 3vw;
+	}
+
+	h3{
+		font-size:4vw;
+	}
+
+	footer{		
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	background: black; 
+	width: 100%;
+	padding: 3% 0 1% 0;
+	font-size:2vw;
+	}
+}
 
 body{
 	display: flex;
