@@ -1,12 +1,14 @@
 @font-face{
 	font-family:"text";
-	src:url(polices/Louis-George-Cafe.ttf);
+	src:url(../polices/Louis-George-Cafe.ttf);
 }
+
 
 @font-face{
 	font-family:"title";
-	src:url(polices/LEMONMILK-Light.otf);
+	src:url(../polices/LEMONMILK-Light.otf);
 }
+
 
 h1{
 	margin:0 0 0 0;
@@ -26,6 +28,7 @@ h2{
  	color:transparent;
  }
 
+
 h3{
     font-size: 1.6vw;
     font-family: title;
@@ -34,15 +37,24 @@ h3{
  	color:transparent;
 }
 
+h4{
+	margin :0 0 0 0;
+	text-decoration: overline;
+	font-weight: lighter;
+
+}
+
 p{
 	font-family: text;
 	color: white;
 }
-
+a {
+		text-decoration: none;
+		color: white;
+}
 ul{
 	list-style-type: circle;
 	padding: 0 0 0 0 ;
-	margin:0 0 0 0;
 }
 
 strong{
@@ -51,21 +63,17 @@ strong{
  	color:transparent;
 }
 
-a{
-	text-decoration: none;
-	color: white;
-}
-
 
 header{
 	display: flex;
 	flex-direction: row;
     justify-content:right;
     background-color:  black;
-    width:100%;
+   	width:100%;
     padding: 0 2% 1% 2%;
     position:fixed;
 }
+
 
 .lienNW{
 	display: flex;
@@ -92,7 +100,7 @@ header{
 	padding-right: 0.5vw; 
 	border-right: 0.1vw solid white;
 	border-bottom: solid 0.1vw white;
-	margin-top: 20px;
+	margin-top: 5%;
 	border-radius: 0.1vw;
 }
 
@@ -110,7 +118,7 @@ header{
 }
 
 .location{
-		background-color: black;
+	background-color: rgb(0,0,0);
 	padding:0.5vw 1vw 0.5vw 1vw;	
 	border-bottom-right-radius: 0.5vw ;
 	border-bottom-left-radius: 0.5vw ;
@@ -127,6 +135,7 @@ header{
 	margin :6% 97% 0 0;
 	padding: 0 0 0 0;
 }
+
 
 .contenuPage{
 	margin-top: 10%;
@@ -147,6 +156,32 @@ header{
 	margin-bottom: 10%;
 }
 
+.contour{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding:0.3% 0.3% 0.3% 0.3%;
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
+	margin-bottom: 10%;
+	border-radius: 2vw;
+	box-shadow: 0 0 1vw black;
+}
+
+.texteCentrerDansContour{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0.5% 3% 0.5% 3%;
+	border-radius: 2vw;
+	background-color: black;
+	font-size: 1.5vw;
+}
+
+
+
 .ensembleDiv{
 	display: flex;
 	flex-direction: row;
@@ -162,7 +197,7 @@ header{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	min-width: 40%;
+	width: 40%;
 	padding:0.3% 0.3% 0.3% 0.3%;
 	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
 	margin-bottom: 10%;
@@ -186,81 +221,51 @@ header{
 	height: 100%;	
 }
 
-.formulaire{
-	width:100%;
+.listeDansContour{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 2%;
-}
-
-.titreContact{
-	font-size: 1.6vw;
-}
-
-form {
-  	display: flex;
 	flex-direction: column;
-	align-items: center;
- 	width: 96%;
-	height:100%;
- 	background-color: black;
- 	border-radius: 2vw;
-  	color:white;
-  	padding: 0 2% 0 2%;
+	padding:0.5% 10% 0.5% 10%;
+	border-radius: 2vw;
+	height: 100%;
+	background-color:black;
+	color: white;
+	font-size:1.5vw;
+	font-family: text;
+	margin-left: 0px;
+	width: 80%; 
+	height: 100%;	
 }
 
-label {
- 	font-family: text;
- 	font-size: 1.5vw;
- 	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
-  	-webkit-background-clip: text;
- 	color:transparent;
- }
-
-input, textarea {
-  font: 1vw text;
-  width: 50%;
-  border: 0.1vw solid #ff0032ff;
-  border-radius: 1vw;
-  text-align: center;
-  background-color: white;
-  color:black;
-}
-
-input:focus, textarea:focus {
-  border-width: 0.15vw;
-  box-shadow: 0 0 0.5vw white; 
-}
-
-.button{
-	margin-top: 5%;
-}
-
-button{
-	margin-top: 10%;
-    border-radius: 1vw;
-    text-align: center;
-    font-size:1.5vw;
-    font-family: text;
-    border:solid 0.05vw white;
-    background-image: linear-gradient(to right, #ff009b, #00f0ff); 
-	-webkit-background-clip:text;
-	color:transparent;
-    margin-bottom:1vw; 
-    margin-top: 1vw;
-    box-shadow: 0px 0px 1vw rgba(247,18,137,0.3);
-}
-
-button:hover{
-	cursor: pointer;
+.titreAutoCentrer{
+	 font-size: 1.6vw;
+    font-family: title;
+	width:100%;
+	text-align: center;
+	background-image: linear-gradient(to right, #ff009b, #00f0ff);
+	-webkit-background-clip: text;
+ 	color: transparent;
 }
 
 .liseretFooter{
 	height:0.5vw;
 	width:100%;
 	background-image:  linear-gradient(to right, #ff009b, #00f0ff); 
+}
+
+.contourCv{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+ 	color: white;
+	font-family: text;
+	font-size: 3vw;
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
+	width: 80%;
+	border-radius: 2vw;
+	padding: 0 5% 0 5%;
+	margin-bottom: 10%;
+
 }
 
 footer{		
@@ -324,6 +329,7 @@ footer{
 		align-items: center;
 		justify-content: right;
 		height: 5%;
+		border-bottom: 0.5vh cyan solid;
 	}
 
 	.intro{
@@ -344,6 +350,7 @@ footer{
 	}
 	h4{
 		font-size: 2vw;
+
 	}
 
 	.liseret{
@@ -361,6 +368,7 @@ footer{
     	justify-content: space-around;
     	width:80%;
     	margin: 0 0 0 0;
+
 	}
 
 	.vignette{
@@ -377,17 +385,21 @@ footer{
 	flex-direction: column;
 
 }
+
 	.location{
 		display: flex;
 		align-items: center;
-	 	background-image:linear-gradient(to right, #ff009b, #00f0ff); 
+	 	 background-image:linear-gradient(to right, #ff009b, #00f0ff); 
 		position: fixed;
+		margin-top: 0;
+		margin-right: 80%;
 		color: black;
 		height:5%;
-		margin-top: 0;
-		width: 22%;
+		padding-top: 0.5%;
+		width: 15%;
 		border-radius: 0;
-		margin-right:78%;
+		margin-right:83%;
+		
 	}
 	
 	#ancre{
@@ -402,16 +414,12 @@ footer{
 	}
 
 	.contourListe{width:80%;}
-
-	.titreContact{font-size: 3vw}
-	label{
-		font-size: 3vw;
+	.ensembleDiv{
+		justify-content: center;
 	}
-	button{font-size: 2vw;}
-
-	.liseretFooter{margin-top: 30%;}
-
+	.titreAutoCentrer{font-size: 3vw;}
 	.email{
+		
 		margin-left: 3%;
 		text-decoration: none;
 		background-image:linear-gradient(to right, #ff009b, #00f0ff); 
@@ -438,12 +446,14 @@ footer{
 	}
 }
 
+
 body{
 	display: flex;
 	flex-direction: column;
 	background-color: white;
 	align-items: center;
-	background-image: url(images/bildongz.svg);
+	background-image: url(../images/fond.svg);
+	background-size: 100% 100%;
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

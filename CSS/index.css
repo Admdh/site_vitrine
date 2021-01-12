@@ -1,68 +1,60 @@
 @font-face{
-	font-family:"text";
-	src:url(polices/Louis-George-Cafe.ttf);
+	font-family:"texte";
+	src:url(../polices/Louis-George-Cafe.ttf);
 }
 
 
 @font-face{
 	font-family:"title";
-	src:url(polices/LEMONMILK-Light.otf);
+	src:url(../polices/LEMONMILK-Light.otf);
 }
-
 
 h1{
 	margin:0 0 0 0;
 	font-family: title;
 	font-size: 1.2vw;
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
-  	-webkit-background-clip: text;
- 	color:transparent;
+ 	background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 h2{
 	margin: 0 0 0 0;
 	font-family: title;
 	font-size: 1.6vw;
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
-  	-webkit-background-clip: text;
- 	color:transparent;
+ 	background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
+    -webkit-background-clip: text;
+    color: transparent;
  }
 
 
 h3{
     font-size: 1.6vw;
     font-family: title;
-    background-image:  linear-gradient(to right, #ff009b, #00f0ff);
-  	-webkit-background-clip: text;
- 	color:transparent;
-}
-
-h4{
-	margin :0 0 0 0;
-	text-decoration: overline;
-	font-weight: lighter;
-
+    background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
+     -webkit-background-clip: text;
+     color: transparent;
 }
 
 p{
-	font-family: text;
+	font-family:texte;
 	color: white;
 }
-a {
-		text-decoration: none;
-		color: white;
+
+a{
+	text-decoration: none;
 }
+
 ul{
 	list-style-type: circle;
 	padding: 0 0 0 0 ;
 }
 
 strong{
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
-  	-webkit-background-clip: text;
- 	color:transparent;
+  	background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
+    -webkit-background-clip: text;
+    color: transparent;
 }
-
 
 header{
 	display: flex;
@@ -112,7 +104,7 @@ header{
 .liseret{
 	height:0.5vw;
 	width:100%;
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff); 
+	background-image:  linear-gradient(to right,  #ff009b, #00f0ff); 
 	margin-top: 3.5%;
 	position:fixed;
 }
@@ -135,7 +127,6 @@ header{
 	margin :6% 97% 0 0;
 	padding: 0 0 0 0;
 }
-
 
 .contenuPage{
 	margin-top: 10%;
@@ -163,7 +154,7 @@ header{
 	align-items: center;
 	width: 100%;
 	padding:0.3% 0.3% 0.3% 0.3%;
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
+	background-image:  linear-gradient(to right,  #ff009b, #00f0ff);
 	margin-bottom: 10%;
 	border-radius: 2vw;
 	box-shadow: 0 0 1vw black;
@@ -171,16 +162,14 @@ header{
 
 .texteCentrerDansContour{
 	display: flex;
+	text-align: justify;
 	flex-direction: column;
 	align-items: center;
-	text-align: center;
 	padding: 0.5% 3% 0.5% 3%;
 	border-radius: 2vw;
 	background-color: black;
 	font-size: 1.5vw;
 }
-
-
 
 .ensembleDiv{
 	display: flex;
@@ -197,9 +186,9 @@ header{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 40%;
+	min-width: 40%;
 	padding:0.3% 0.3% 0.3% 0.3%;
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
+	background-image:  linear-gradient(to right,  #ff009b, #00f0ff);
 	margin-bottom: 10%;
 	border-radius: 2vw;
 	box-shadow: 0 0 1vw black;
@@ -215,57 +204,16 @@ header{
 	background-color:black;
 	color: white;
 	font-size:1.5vw;
-	font-family: text;
+	font-family:texte;
 	margin-left: 0px;
 	width: 80%; 
 	height: 100%;	
-}
-
-.listeDansContour{
-	display: flex;
-	flex-direction: column;
-	padding:0.5% 10% 0.5% 10%;
-	border-radius: 2vw;
-	height: 100%;
-	background-color:black;
-	color: white;
-	font-size:1.5vw;
-	font-family: text;
-	margin-left: 0px;
-	width: 80%; 
-	height: 100%;	
-}
-
-.titreAutoCentrer{
-	 font-size: 1.6vw;
-    font-family: title;
-	width:100%;
-	text-align: center;
-	background-image: linear-gradient(to right, #ff009b, #00f0ff);
-	-webkit-background-clip: text;
- 	color: transparent;
 }
 
 .liseretFooter{
 	height:0.5vw;
 	width:100%;
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff); 
-}
-
-.contourCv{
-
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
- 	color: white;
-	font-family: text;
-	font-size: 3vw;
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
-	width: 80%;
-	border-radius: 2vw;
-	padding: 0 5% 0 5%;
-	margin-bottom: 10%;
-
+	background-image:  linear-gradient(to right,  #ff009b, #00f0ff); 
 }
 
 footer{		
@@ -280,10 +228,10 @@ footer{
 
 .email{
 	text-decoration: none;
-	background-image: linear-gradient(to right, #ff009b, #00f0ff);
-	-webkit-background-clip: text;
- 	color: transparent;
-	font-family: text;
+	 background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
+     -webkit-background-clip: text;
+     color: transparent;
+	font-family:texte;
 }
 
 .image{
@@ -303,23 +251,21 @@ footer{
 .signature{
 	display: flex;
 	justify-content: center;
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
-  	-webkit-background-clip: text;
- 	color:transparent;
-	font-family: text;
+	 background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
+     -webkit-background-clip: text;
+     color: transparent;
+	font-family:texte;
 	margin: 0 0 0 3.5%;
 }
 
 .date{
 
 	font-size: 1vw;
-	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
-  	-webkit-background-clip: text;
- 	color:transparent;
+	 background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
+     -webkit-background-clip: text;
+     color: transparent;
  	margin-bottom: 0;
 }
-
-
 
 @media all and (max-width: 1000px){
 	
@@ -329,6 +275,7 @@ footer{
 		align-items: center;
 		justify-content: right;
 		height: 5%;
+		border-bottom: 0.5vh cyan solid;
 	}
 
 	.intro{
@@ -346,10 +293,6 @@ footer{
 
 	h3{
 		font-size: 3vw;
-	}
-	h4{
-		font-size: 2vw;
-
 	}
 
 	.liseret{
@@ -380,25 +323,26 @@ footer{
 	}
 
 	.ensembleDiv{
-	align-items: center;
-	flex-direction: column;
-
-}
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		justify-content: space-between;
+		margin-bottom: 10%;
+		width:100%;
+		padding:0 5% 0 5%;
+	}
 
 	.location{
 		display: flex;
 		align-items: center;
-	 	 background-image:linear-gradient(to right, #ff009b, #00f0ff); 
+	 	 background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
 		position: fixed;
-		margin-top: 0;
 		margin-right: 80%;
+		border-radius: 0;
 		color: black;
 		height:5%;
-		padding-top: 0.5%;
-		width: 15%;
-		border-radius: 0;
-		margin-right:83%;
-		
+		padding-top:0.5% ;
+		margin-top: 0;
 	}
 	
 	#ancre{
@@ -412,19 +356,14 @@ footer{
 		padding: 0 0 0 0;
 	}
 
-	.contourListe{width:80%;}
-	.ensembleDiv{
-		justify-content: center;
-	}
-	.titreAutoCentrer{font-size: 3vw;}
 	.email{
 		
 		margin-left: 3%;
 		text-decoration: none;
-		background-image:linear-gradient(to right, #ff009b, #00f0ff); 
+		background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
     	-webkit-background-clip: text;
     	color: transparent;
-		font-family:text;
+		font-family:texte;
 		font-size: 3vw;
 	}
 
@@ -437,7 +376,7 @@ footer{
 	.date{
 
 		font-size: 1.5vw;
-	 	background-image:linear-gradient(to right, #ff009b, #00f0ff); 
+	 	background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
 	    -webkit-background-clip: text;
 	    text-align: center;
 	    color: transparent;
@@ -445,16 +384,15 @@ footer{
 	}
 }
 
-
 body{
 	display: flex;
 	flex-direction: column;
 	background-color: white;
 	align-items: center;
-	background-image: url(images/bildongz.svg);
+	background-image: url(../images/fond.svg);
+	background-size: 100% 100%;
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin: 0 0 0 0 ;	
-
 }
