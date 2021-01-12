@@ -13,7 +13,7 @@ h1{
 	margin:0 0 0 0;
 	font-family: title;
 	font-size: 1.2vw;
- 	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+ 	background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -22,7 +22,7 @@ h2{
 	margin: 0 0 0 0;
 	font-family: title;
 	font-size: 1.6vw;
- 	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+ 	background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
     -webkit-background-clip: text;
     color: transparent;
  }
@@ -31,7 +31,7 @@ h2{
 h3{
     font-size: 1.6vw;
     font-family: title;
-    background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+    background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
      -webkit-background-clip: text;
      color: transparent;
 }
@@ -51,7 +51,7 @@ ul{
 }
 
 strong{
-  	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+  	background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -97,14 +97,14 @@ header{
 }
 
 .vignette:hover{
-	 border-color:#ff0032ff ;
-	box-shadow: 0.1vw 0.1vw 0.2vw  #ff0032ff;
+	 border-color:#00f0ff ;
+	box-shadow: 0.1vw 0.1vw 0.2vw  #00f0ff;
 }
 
 .liseret{
 	height:0.5vw;
 	width:100%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	background-image:  linear-gradient(to right,  #ff009b, #00f0ff); 
 	margin-top: 3.5%;
 	position:fixed;
 }
@@ -141,7 +141,7 @@ header{
 	text-align: center;
 	width: 80%;
 	padding:0.5% 3% 0.5% 3%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
 	font-size: 1.5vw;
 	border-radius: 10vw;
 	margin-bottom: 10%;
@@ -154,7 +154,7 @@ header{
 	align-items: center;
 	width: 100%;
 	padding:0.3% 0.3% 0.3% 0.3%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image:  linear-gradient(to right,  #ff009b, #00f0ff);
 	margin-bottom: 10%;
 	border-radius: 2vw;
 	box-shadow: 0 0 1vw black;
@@ -188,7 +188,7 @@ header{
 	align-items: center;
 	min-width: 40%;
 	padding:0.3% 0.3% 0.3% 0.3%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image:  linear-gradient(to right,  #ff009b, #00f0ff);
 	margin-bottom: 10%;
 	border-radius: 2vw;
 	box-shadow: 0 0 1vw black;
@@ -213,7 +213,7 @@ header{
 .liseretFooter{
 	height:0.5vw;
 	width:100%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	background-image:  linear-gradient(to right,  #ff009b, #00f0ff); 
 }
 
 footer{		
@@ -228,7 +228,7 @@ footer{
 
 .email{
 	text-decoration: none;
-	 background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	 background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
      -webkit-background-clip: text;
      color: transparent;
 	font-family:texte;
@@ -251,7 +251,7 @@ footer{
 .signature{
 	display: flex;
 	justify-content: center;
-	 background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	 background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
      -webkit-background-clip: text;
      color: transparent;
 	font-family:texte;
@@ -261,7 +261,7 @@ footer{
 .date{
 
 	font-size: 1vw;
-	 background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	 background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
      -webkit-background-clip: text;
      color: transparent;
  	margin-bottom: 0;
@@ -334,11 +334,13 @@ footer{
 	.location{
 		display: flex;
 		align-items: center;
-	 	 background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	 	 background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
 		position: fixed;
 		margin-right: 80%;
+		border-radius: 0;
 		color: black;
 		height:5%;
+		padding-top:0.5% ;
 		margin-top: 0;
 	}
 	
@@ -357,7 +359,7 @@ footer{
 		
 		margin-left: 3%;
 		text-decoration: none;
-		background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+		background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
     	-webkit-background-clip: text;
     	color: transparent;
 		font-family:texte;
@@ -373,7 +375,7 @@ footer{
 	.date{
 
 		font-size: 1.5vw;
-	 	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	 	background-image:linear-gradient(to right,  #ff009b, #00f0ff); 
 	    -webkit-background-clip: text;
 	    text-align: center;
 	    color: transparent;

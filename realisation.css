@@ -14,7 +14,7 @@ h1{
 	margin:0 0 0 0;
 	font-family: title;
 	font-size: 1.2vw;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
  -webkit-background-clip:text;
  	color:transparent;
 }
@@ -23,7 +23,7 @@ h2{
 	margin: 0 0 0 0;
 	font-family: title;
 	font-size: 1.6vw;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
    -webkit-background-clip:text;
  	color:transparent;
  }
@@ -34,7 +34,7 @@ h3{
     font-size: 1.6vw;
     font-family: title;
     text-shadow: 0px 0px 3vw grey;	
- background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+ background-image:  linear-gradient(to right, #ff009b, #00f0ff);
  -webkit-background-clip:text;
  	color:transparent;
 }
@@ -56,7 +56,7 @@ ul{
 mark{
 
 	font-weight: bold;
-	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	background-image: linear-gradient(to right, #ff009b, #00f0ff); 
 	-webkit-background-clip:text;
 	color:transparent;
 }
@@ -67,7 +67,7 @@ mark{
     font-size:1.5vw;
     font-family: text;
     border:solid 0.05vw white;
-    background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+    background-image: linear-gradient(to right, #ff009b, #00f0ff); 
 	-webkit-background-clip:text;
 	color:transparent;
     margin-bottom:1vw; 
@@ -80,9 +80,6 @@ mark{
 	cursor: pointer;
  	box-shadow: 0px 0px 1.2vw rgba(247,18,137,0.6);
 }
-
-
-
 
 header{
 	display: flex;
@@ -124,14 +121,14 @@ header{
 }
 
 .vignette:hover{
-	 border-color:#ff0032ff ;
-	box-shadow: 0.1vw 0.1vw 0.2vw  #ff0032ff;
+	 border-color:#00f0ff ;
+	box-shadow: 0.1vw 0.1vw 0.2vw  #00f0ff;
 }
 
 .liseret{
 	height:0.5vw;
 	width:100%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff); 
 	margin-top: 3.5%;
 	position:fixed;
 }
@@ -170,7 +167,7 @@ header{
 	text-align: center;
 	width: 70%;
 	padding:0.5% 3% 0.5% 3%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
 	font-size: 1.5vw;
 	border-radius: 10vw;
 	margin-bottom: 10%;
@@ -190,7 +187,7 @@ header{
 	max-width: 40%;
 	height:auto;
 	padding:0.3% 0.3% 0.3% 0.3%;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
 	margin-bottom: 10%;
 	border-radius: 2vw;
 	box-shadow: 0 0 1vw black;
@@ -242,7 +239,7 @@ header{
 .liseretFooter{
 	height:0.5vw;
 	width:100%;
-	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	background-image: linear-gradient(to right, #ff009b, #00f0ff); 
 }
 
 footer{		
@@ -257,7 +254,7 @@ footer{
 
 .email{
 	text-decoration: none;
-	background-image: linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image: linear-gradient(to right, #ff009b, #00f0ff);
 	-webkit-background-clip: text;
  	color: transparent;
 	font-family: text;
@@ -280,7 +277,7 @@ footer{
 .signature{
 	display: flex;
 	justify-content: center;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
  -webkit-background-clip:text;
  	color:transparent;
 	font-family: text;
@@ -289,7 +286,7 @@ footer{
 
 .date{
 	font-size: 1vw;
-	background-image:  linear-gradient(to right, #0c2bc2ff, #ff0032ff);
+	background-image:  linear-gradient(to right, #ff009b, #00f0ff);
  -webkit-background-clip:text;
  	color:transparent;
  	margin-bottom: 0;
@@ -357,13 +354,12 @@ footer{
 	.ensembleDiv{
 	align-items: center;
 	flex-direction: column;
-
 }
 
 	.location{
 		display: flex;
 		align-items: center;
-	 	 background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	 	 background-image:linear-gradient(to right, #ff009b, #00f0ff); 
 		position: fixed;
 		color: black;
 		height:5%;
@@ -392,10 +388,14 @@ footer{
 		font-size: 2.5vw;
 	}
 
+	.divScrollable{
+		height: 20vh;
+	}
+
 	.email{
 		margin-left: 3%;
 		text-decoration: none;
-		background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+		background-image:linear-gradient(to right, #ff009b, #00f0ff); 
     	-webkit-background-clip: text;
     	color: transparent;
 		font-family:text;
@@ -411,7 +411,7 @@ footer{
 	.date{
 
 		font-size: 1.5vw;
-	 	background-image:linear-gradient(to right, #0c2bc2ff, #ff0032ff); 
+	 	background-image:linear-gradient(to right, #ff009b, #00f0ff); 
 	    -webkit-background-clip: text;
 	    text-align: center;
 	    color: transparent;

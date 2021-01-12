@@ -8,57 +8,57 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="fleche.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 210 297"
+   width="210mm"
    height="297mm"
-   width="210mm">
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="fleche.svg">
   <defs
      id="defs2">
     <linearGradient
-       id="linearGradient2935"
-       inkscape:collect="always">
+       inkscape:collect="always"
+       id="linearGradient2935">
       <stop
-         id="stop2931"
+         style="stop-color:#00f0ff;stop-opacity:1"
          offset="0"
-         style="stop-color:#0c2bc2;stop-opacity:1" />
+         id="stop2931" />
       <stop
-         id="stop2933"
+         style="stop-color:#ff009b;stop-opacity:1"
          offset="1"
-         style="stop-color:#ff0032;stop-opacity:1" />
+         id="stop2933" />
     </linearGradient>
     <linearGradient
-       gradientTransform="matrix(1.6436688,0,0,1.4131305,-67.375836,-34.068298)"
-       gradientUnits="userSpaceOnUse"
-       y2="60.993481"
-       x2="104.98715"
-       y1="244.44684"
-       x1="55.830975"
-       id="linearGradient2937"
+       inkscape:collect="always"
        xlink:href="#linearGradient2935"
-       inkscape:collect="always" />
+       id="linearGradient2937"
+       x1="55.830975"
+       y1="244.44684"
+       x2="104.98715"
+       y2="60.993481"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.6436688,0,0,1.4131305,-67.375836,-34.068298)" />
   </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="56"
-     inkscape:window-height="1057"
-     inkscape:window-width="1856"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="488.00714"
-     inkscape:cx="428.29744"
-     inkscape:zoom="0.40632441"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.48448431"
+     inkscape:cx="428.29744"
+     inkscape:cy="488.00714"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -67,18 +67,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     inkscape:label="Calque 1">
+     id="layer1">
     <path
-       sodipodi:nodetypes="cccccccccccc"
-       d="M 104.97583,5.6389597 C 98.581715,5.591408 92.14905,9.2823896 87.052008,16.872477 L 5.3305551,138.56368 C 8.2648959,151.77136 17.104734,156.2753 32.026864,151.81489 L 89.436248,66.324644 V 285.74738 c 9.974826,8.27274 20.297372,9.0715 31.079152,0 V 66.324644 l 57.40937,85.490246 c 14.92214,4.46041 23.76196,-0.0435 26.69631,-13.25121 L 122.89965,16.872477 C 117.80259,9.2823896 111.36995,5.591408 104.97583,5.6389597 Z"
+       id="rect833"
        style="fill:url(#linearGradient2937);fill-opacity:1;stroke:#000000;stroke-width:4.03237;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-       id="rect833" />
+       d="M 104.97583,5.6389597 C 98.581715,5.591408 92.14905,9.2823896 87.052008,16.872477 L 5.3305551,138.56368 C 8.2648959,151.77136 17.104734,156.2753 32.026864,151.81489 L 89.436248,66.324644 V 285.74738 c 9.974826,8.27274 20.297372,9.0715 31.079152,0 V 66.324644 l 57.40937,85.490246 c 14.92214,4.46041 23.76196,-0.0435 26.69631,-13.25121 L 122.89965,16.872477 C 117.80259,9.2823896 111.36995,5.591408 104.97583,5.6389597 Z"
+       sodipodi:nodetypes="cccccccccccc" />
   </g>
 </svg>
